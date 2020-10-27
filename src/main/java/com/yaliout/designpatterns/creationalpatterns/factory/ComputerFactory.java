@@ -1,7 +1,8 @@
 package com.yaliout.designpatterns.creationalpatterns.factory;
 
 /**
- * 工厂模式：
+ * 工厂模式
+ *
  * @author Hu JunJie
  * @date 2020/10/27 9:45
  * @since
@@ -17,6 +18,6 @@ public class ComputerFactory {
     }
 
     public static void main(String[] args) {
-        System.out.println(ComputerFactory.getComputer("PC","1","2","3").toString());
+        System.out.println(ComputerFactory.getComputer("PC", "1", "2", "3").toString());
     }
 }
