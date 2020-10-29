@@ -19,28 +19,51 @@ public class User
 
     private String phoneNumber;
 
-    public void setId(Long id)
-    {
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
         this.id = id;
     }
-    public void setCode(String code)
-    {
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
         this.code = code;
     }
-    public void setName(String name)
-    {
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
-    public void setSex(String sex)
-    {
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
         this.sex = sex;
     }
-    public void setWeChat(String weChat)
-    {
+
+    public String getWeChat() {
+        return weChat;
+    }
+
+    public void setWeChat(String weChat) {
         this.weChat = weChat;
     }
-    public void setPhoneNumber(String phoneNumber)
-    {
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 }
