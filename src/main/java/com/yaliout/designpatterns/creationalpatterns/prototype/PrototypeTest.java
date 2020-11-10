@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 原型模式：
+ * <p>
  * TODO {@link Object#clone()} 深拷贝与浅拷贝研究
  * Long,String,Date 作为对象的属性，并不是浅拷贝，体现在copy了一个对象后，并不会同步修改
  * List,Map 作为对象的属性，是浅拷贝
@@ -16,7 +18,7 @@ import java.util.List;
  * @date 2020/10/27 14:55
  * @since
  */
-public class Test {
+public class PrototypeTest {
 
     public static void main(String[] args) throws CloneNotSupportedException, ParseException {
         CloneUser user0 = new CloneUser();
