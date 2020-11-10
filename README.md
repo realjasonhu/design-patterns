@@ -154,6 +154,7 @@ public interface FactoryInterface {
 参考文章[https://www.runoob.com/design-pattern/facade-pattern.html](https://www.runoob.com/design-pattern/facade-pattern.html)。
 #### 桥接模式（Bridge Pattern）
 参考文章[https://www.runoob.com/design-pattern/bridge-pattern.html](https://www.runoob.com/design-pattern/bridge-pattern.html)。
+
 参考代码[https://www.journaldev.com/1491/bridge-design-pattern-java](https://www.journaldev.com/1491/bridge-design-pattern-java)。
 #### 装饰器模式（Decorator Pattern）
 参考文章[https://www.runoob.com/design-pattern/decorator-pattern.html](https://www.runoob.com/design-pattern/decorator-pattern.html)。
